@@ -1,0 +1,63 @@
+.container {
+  width: 500px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.img {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  background-color: darkgray;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.tag,
+.loc {
+  font-size: 24px;
+  color: gray;
+}
+
+.list {
+  border-top: 3px solid grey;
+  background-color: rgb(164, 160, 160);
+  display: flex;
+  width: 100%;
+}
+
+.item:nth-child(2) {
+  border-left: 3px solid grey;
+  border-right: 3px solid grey;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  width: calc(100% / 3);
+}
+
+.value {
+  font-weight: 600;
+}

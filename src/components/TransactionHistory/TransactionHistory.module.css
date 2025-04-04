@@ -1,0 +1,29 @@
+.table {
+  min-width: 800px;
+  border: 3px solid black;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 64px;
+}
+
+.thead {
+  background-color: rgb(53, 49, 49);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 800;
+  border: 2px solid black;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.text {
+  font-size: 24px;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.table .item:nth-child(even) {
+  background-color: rgb(181, 177, 177);
+}

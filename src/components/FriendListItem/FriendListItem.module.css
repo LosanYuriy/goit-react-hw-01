@@ -1,0 +1,26 @@
+.img {
+  width: 100px;
+  margin-bottom: 30px;
+  margin: 0 auto;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.status {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.isOnlineClass {
+  color: green;
+  font-size: 20px;
+}
+
+.isOfflineClass {
+  color: red;
+  font-size: 20px;
+}
